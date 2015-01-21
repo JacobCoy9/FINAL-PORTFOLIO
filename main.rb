@@ -10,7 +10,7 @@ end
 
 get "/secret" do
     @title = "YOU FOUND THE SECRET PAGE"
-    @description = "YAY YOU CLICKED ON THE SECRET PAGE LINK"
+    @description = "THE SECRET PAGE"
     erb :secret
 end
 
